@@ -4,9 +4,9 @@ Vue 3 web-приложение для онлайн-заказов блюд.
 
 
 
-👉 [Открыть на GitHub Pages](https://твое_имя.github.io/your-repo-name/)
+👉 [Open on GitHub Pages](https://qwezy1.github.io/online-order-app/)
 
-## 📦 Стек технологий
+## 📦  Steck
 
 - Vue 3 + Composition API
 - TypeScript
@@ -14,8 +14,13 @@ Vue 3 web-приложение для онлайн-заказов блюд.
 - Vite (билд и разработка)
 - GitHub Pages (хостинг)
 
-## 🔧 Установка
+## 🔧 Download
 
 ```bash
 npm install
 npm run dev
+
+## Docker
+```bash
+docker build -t vue-vite-dev .
+docker run -p 5173:5173 -v ${PWD}:/app -v /app/node_modules vue-vite-dev
